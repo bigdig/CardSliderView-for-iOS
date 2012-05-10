@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5516C587155C07F700562075 /* LICENSE.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 5516C586155C07F700562075 /* LICENSE.TXT */; };
+		5516C589155C081200562075 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 5516C588155C081200562075 /* README.TXT */; };
+		558EB7401559815900A91BA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558EB73F1559815900A91BA2 /* UIKit.framework */; };
+		558EB7421559815900A91BA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558EB7411559815900A91BA2 /* Foundation.framework */; };
+		558EB7441559815900A91BA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558EB7431559815900A91BA2 /* CoreGraphics.framework */; };
+		558EB74A1559815900A91BA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 558EB7481559815900A91BA2 /* InfoPlist.strings */; };
+		558EB74C1559815900A91BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 558EB74B1559815900A91BA2 /* main.m */; };
+		558EB7501559815900A91BA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 558EB74F1559815900A91BA2 /* AppDelegate.m */; };
+		558EB7531559815900A91BA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558EB7521559815900A91BA2 /* ViewController.m */; };
+		558EB7561559815900A91BA2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558EB7541559815900A91BA2 /* ViewController_iPhone.xib */; };
+		558EB7591559815900A91BA2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558EB7571559815900A91BA2 /* ViewController_iPad.xib */; };
+		558EB7611559819000A91BA2 /* CardSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 558EB7601559819000A91BA2 /* CardSliderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5516C586155C07F700562075 /* LICENSE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.TXT; sourceTree = "<group>"; };
+		5516C588155C081200562075 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		558EB73B1559815900A91BA2 /* CardSliderViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSliderViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		558EB73F1559815900A91BA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		558EB7411559815900A91BA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		558EB7431559815900A91BA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		558EB7471559815900A91BA2 /* CardSliderViewProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardSliderViewProject-Info.plist"; sourceTree = "<group>"; };
+		558EB7491559815900A91BA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		558EB74B1559815900A91BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		558EB74D1559815900A91BA2 /* CardSliderViewProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardSliderViewProject-Prefix.pch"; sourceTree = "<group>"; };
+		558EB74E1559815900A91BA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		558EB74F1559815900A91BA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		558EB7511559815900A91BA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		558EB7521559815900A91BA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		558EB7551559815900A91BA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		558EB7581559815900A91BA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		558EB75F1559819000A91BA2 /* CardSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSliderView.h; sourceTree = "<group>"; };
+		558EB7601559819000A91BA2 /* CardSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSliderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558EB7381559815900A91BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558EB7401559815900A91BA2 /* UIKit.framework in Frameworks */,
+				558EB7421559815900A91BA2 /* Foundation.framework in Frameworks */,
+				558EB7441559815900A91BA2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558EB7301559815900A91BA2 = {
+			isa = PBXGroup;
+			children = (
+				558EB7451559815900A91BA2 /* CardSliderViewProject */,
+				558EB73E1559815900A91BA2 /* Frameworks */,
+				558EB73C1559815900A91BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558EB73C1559815900A91BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558EB73B1559815900A91BA2 /* CardSliderViewProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558EB73E1559815900A91BA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558EB73F1559815900A91BA2 /* UIKit.framework */,
+				558EB7411559815900A91BA2 /* Foundation.framework */,
+				558EB7431559815900A91BA2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		558EB7451559815900A91BA2 /* CardSliderViewProject */ = {
+			isa = PBXGroup;
+			children = (
+				5516C586155C07F700562075 /* LICENSE.TXT */,
+				5516C588155C081200562075 /* README.TXT */,
+				558EB74E1559815900A91BA2 /* AppDelegate.h */,
+				558EB74F1559815900A91BA2 /* AppDelegate.m */,
+				558EB7511559815900A91BA2 /* ViewController.h */,
+				558EB7521559815900A91BA2 /* ViewController.m */,
+				558EB75F1559819000A91BA2 /* CardSliderView.h */,
+				558EB7601559819000A91BA2 /* CardSliderView.m */,
+				558EB7541559815900A91BA2 /* ViewController_iPhone.xib */,
+				558EB7571559815900A91BA2 /* ViewController_iPad.xib */,
+				558EB7461559815900A91BA2 /* Supporting Files */,
+			);
+			path = CardSliderViewProject;
+			sourceTree = "<group>";
+		};
+		558EB7461559815900A91BA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				558EB7471559815900A91BA2 /* CardSliderViewProject-Info.plist */,
+				558EB7481559815900A91BA2 /* InfoPlist.strings */,
+				558EB74B1559815900A91BA2 /* main.m */,
+				558EB74D1559815900A91BA2 /* CardSliderViewProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558EB73A1559815900A91BA2 /* CardSliderViewProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558EB75C1559815900A91BA2 /* Build configuration list for PBXNativeTarget "CardSliderViewProject" */;
+			buildPhases = (
+				558EB7371559815900A91BA2 /* Sources */,
+				558EB7381559815900A91BA2 /* Frameworks */,
+				558EB7391559815900A91BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardSliderViewProject;
+			productName = CardSliderViewProject;
+			productReference = 558EB73B1559815900A91BA2 /* CardSliderViewProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558EB7321559815900A91BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 558EB7351559815900A91BA2 /* Build configuration list for PBXProject "CardSliderViewProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 558EB7301559815900A91BA2;
+			productRefGroup = 558EB73C1559815900A91BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558EB73A1559815900A91BA2 /* CardSliderViewProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558EB7391559815900A91BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558EB74A1559815900A91BA2 /* InfoPlist.strings in Resources */,
+				558EB7561559815900A91BA2 /* ViewController_iPhone.xib in Resources */,
+				558EB7591559815900A91BA2 /* ViewController_iPad.xib in Resources */,
+				5516C587155C07F700562075 /* LICENSE.TXT in Resources */,
+				5516C589155C081200562075 /* README.TXT in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558EB7371559815900A91BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558EB74C1559815900A91BA2 /* main.m in Sources */,
+				558EB7501559815900A91BA2 /* AppDelegate.m in Sources */,
+				558EB7531559815900A91BA2 /* ViewController.m in Sources */,
+				558EB7611559819000A91BA2 /* CardSliderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		558EB7481559815900A91BA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558EB7491559815900A91BA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		558EB7541559815900A91BA2 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558EB7551559815900A91BA2 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		558EB7571559815900A91BA2 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558EB7581559815900A91BA2 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		558EB75A1559815900A91BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		558EB75B1559815900A91BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558EB75D1559815900A91BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardSliderViewProject/CardSliderViewProject-Prefix.pch";
+				INFOPLIST_FILE = "CardSliderViewProject/CardSliderViewProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		558EB75E1559815900A91BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardSliderViewProject/CardSliderViewProject-Prefix.pch";
+				INFOPLIST_FILE = "CardSliderViewProject/CardSliderViewProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558EB7351559815900A91BA2 /* Build configuration list for PBXProject "CardSliderViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558EB75A1559815900A91BA2 /* Debug */,
+				558EB75B1559815900A91BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558EB75C1559815900A91BA2 /* Build configuration list for PBXNativeTarget "CardSliderViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558EB75D1559815900A91BA2 /* Debug */,
+				558EB75E1559815900A91BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 558EB7321559815900A91BA2 /* Project object */;
+}
