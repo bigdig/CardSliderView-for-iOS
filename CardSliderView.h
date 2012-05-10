@@ -33,8 +33,6 @@
 - (UIView*) viewForNextCardForCardSlider:(CardSliderView*)slider;
 @end
 
-//TODO: LOAD FIRST DATA SOURCE VIEW!!
-
 @interface CardSliderView : UIView <UIScrollViewDelegate>
 
 @property (nonatomic, weak) IBOutlet id <CardSliderDataSource> dataSource;
