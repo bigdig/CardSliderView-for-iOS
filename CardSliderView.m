@@ -37,10 +37,7 @@
 	BOOL startedIncompleteNextScroll;
 	BOOL startedIncompletePreviousScroll;
 		
-	//incomingCardView is taken from the data source methods, then used upon scrollViewDidEndDecelerating.
 	UIView *incomingCardView;
-	
-	//TODO: Go through the code, implementing currentCardView, see if this solves dissapearances/frame shenanegins.
 	UIView *currentCardView;
 	
 	//dimmer is only used to create visual separation betw. background & foreground cards while swiping
